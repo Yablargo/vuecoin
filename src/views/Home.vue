@@ -5,18 +5,18 @@
       src="../assets/logo.png"
       style="width: 3in; height: 2in"
     />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <PricesTable />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import PricesTable from "@/components/PricesTable.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    PricesTable,
   },
 };
 </script>
